@@ -7,10 +7,10 @@ This was my first ever personal project completed independent of University cour
 2. To show my development as a programmer over time
 
 ## Requirements
-###Dependencies
+### Dependencies
 - tkinter
 
-###File format
+### File format
 All the files have to be in the same directory, including the rotors.txt file
 
 ## Basic Use
