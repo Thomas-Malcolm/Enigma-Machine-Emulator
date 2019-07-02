@@ -38,7 +38,7 @@ When you want to reset the whole machine, the reset button in the main window wi
 
 There are some glaringly obvious problems with the code, and probably a lot more I'll realise as I gain more experience over time. As such, here is list of some of the problems I identified as of uploading (27/6/19):
 
-- The enigma_gui.py file is horribly laid out. I didn't know about using classes to organise GUI's at the time - there's not even a main file to run it all, just a few lines at the bottom. As a result there are global variables used all throughout, and a lot of passing variables through each function pointlessly. 
+- The enigma_gui.py file is horribly laid out. I didn't know about using classes to organise GUI's at the time - there's not even a main function to run it all, just a few lines at the bottom. As a result there are global variables used all throughout, and a lot of passing variables through each function pointlessly. 
 - There's a lot of code that could be just put into a for loop, or put into a function. For example, resetting the on/off lights when resetting to default.
 - While I haven't figured it out yet, I'm sure there's a more efficient way to handle the enciphering function - at the moment it passes through a function nine times just to encipher a single letter
 - A list of tuples would have been a better way to handle the reverse rotor position, rather than looping over the current letter order of a rotor and generating an entirely new dictionary
